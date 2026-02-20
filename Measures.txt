@@ -1,0 +1,45 @@
+
+[MeasureWidth1]
+Measure=Calc
+Formula=[Box1Text:W]
+;Formula=#Feed1Name#
+IfCondition=(MeasureWidth1=0)
+IfTrueAction=[!SetVariable Feeds "0"][!WriteKeyValue Variables Feeds 0 "#SKINSPATH#Droptop Community Apps\Apps\YouTube_Checker-TheyCallMePapa\Variables\Variables.inc"][!Redraw]
+IfFalseAction=[!SetVariable Feeds "1"][!WriteKeyValue Variables Feeds 1 "#SKINSPATH#Droptop Community Apps\Apps\YouTube_Checker-TheyCallMePapa\Variables\Variables.inc"][!Redraw]
+DynamicVariables=1
+
+[MeasureWidth2]
+Measure=Calc
+Formula=[Box2Text:W]
+;Formula=#Feed2Name#
+IfCondition=(MeasureWidth2=0)
+IfTrueAction=[!SetVariable Feeds "1"][!WriteKeyValue Variables Feeds 1 "#SKINSPATH#Droptop Community Apps\Apps\YouTube_Checker-TheyCallMePapa\Variables\Variables.inc"][!Redraw]
+IfFalseAction=[!SetVariable Feeds "2"][!WriteKeyValue Variables Feeds 2 "#SKINSPATH#Droptop Community Apps\Apps\YouTube_Checker-TheyCallMePapa\Variables\Variables.inc"][!Redraw]
+DynamicVariables=1
+
+[MeasureWidth3]
+Measure=Calc
+Formula=[Box3Text:W]
+;Formula=#Feed3Name#
+IfCondition=(MeasureWidth3=0)
+IfTrueAction=[!SetVariable Feeds "2"][!WriteKeyValue Variables Feeds 2 "#SKINSPATH#Droptop Community Apps\Apps\YouTube_Checker-TheyCallMePapa\Variables\Variables.inc"][!Redraw]
+IfFalseAction=[!SetVariable Feeds "3"][!WriteKeyValue Variables Feeds 3 "#SKINSPATH#Droptop Community Apps\Apps\YouTube_Checker-TheyCallMePapa\Variables\Variables.inc"][!Redraw]
+DynamicVariables=1
+
+[MeasureWidth4]
+Measure=Calc
+Formula=[Box4Text:W]
+;Formula=#Feed4Name#
+IfCondition=(MeasureWidth4=0)
+IfTrueAction=[!SetVariable Feeds "3"][!WriteKeyValue Variables Feeds 3 "#SKINSPATH#Droptop Community Apps\Apps\YouTube_Checker-TheyCallMePapa\Variables\Variables.inc"][!Redraw]
+IfFalseAction=[!SetVariable Feeds "4"][!WriteKeyValue Variables Feeds 4 "#SKINSPATH#Droptop Community Apps\Apps\YouTube_Checker-TheyCallMePapa\Variables\Variables.inc"][!Redraw]
+DynamicVariables=1
+
+[MeasureWidth5]
+Measure=Calc
+Formula=[Box5Text:W]
+;Formula=#Feed5Name#
+IfCondition=(MeasureWidth5=0)
+IfTrueAction=[!SetVariable Feeds "4"][!WriteKeyValue Variables Feeds 4 "#SKINSPATH#Droptop Community Apps\Apps\YouTube_Checker-TheyCallMePapa\Variables\Variables.inc"][!Redraw]
+IfFalseAction=[!SetVariable Feeds "5"][!WriteKeyValue Variables Feeds 5 "#SKINSPATH#Droptop Community Apps\Apps\YouTube_Checker-TheyCallMePapa\Variables\Variables.inc"][!Redraw]
+DynamicVariables=1
