@@ -23,10 +23,10 @@
 <h4 align="center">Get notified when a new video drops for up to five Youtube feeds.</h4>
 
 <p align="center">
-  <!--a href="https://droptopfour.com/community-apps/?id=119"><img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.droptopfour.com%2Fv1%2Fcommunity-apps%2F119&query=%24.version&label=Version&color=43ff64"></a-->
+  <a href="https://droptopfour.com/community-apps/?id=119"><img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.droptopfour.com%2Fv1%2Fcommunity-apps%2F120&query=%24.version&label=Version&color=43ff64"></a>
   <a href="https://droptopfour.com"><img src="https://img.shields.io/badge/Droptop%20Four%20Website-43ff64"></a>
   <a href="https://droptopfour.com/discord"><img alt="Discord" src="https://img.shields.io/discord/800124057923485728"></a>
-  <!--img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.droptopfour.com%2Fv1%2Fcommunity-apps%2F119&query=%24.downloads'&label=Downloads&color=d8624c"-->
+  <img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.droptopfour.com%2Fv1%2Fcommunity-apps%2F120&query=%24.downloads'&label=Downloads&color=d8624c">
 </p>
 
 <p align="center">
@@ -49,7 +49,7 @@
 • Follow instructions to aquire the feed id needed to retrieve the video information.
 
 ## Download
-[Droptop Four Community Apps](https://droptopfour.com/community-apps/?id=)
+[Droptop Four Community Apps](https://droptopfour.com/community-apps/?id=120)
 
 ## Credits
 Written by [TheyCallMePapa](https://github.com/papa-boynton)
